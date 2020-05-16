@@ -1,9 +1,9 @@
-let s:completionDictionary = MelLoad()
+let s:completionDictionary = mel#omnifuncdata#MelLoad()
 let s:currentCompletionContext = ''
 let s:completionKeys = []
 let s:completionKeys = sort(keys(s:completionDictionary))
 
-fun! MelComplete(findstart, base)
+fun! mel#omnifunc#MelComplete(findstart, base)
   " let contextName = vex#config#VEXContext()
   " if s:currentCompletionContext != contextName
   "   let s:completionDictionary = s:completionContexts[contextName]
@@ -31,6 +31,4 @@ fun! MelComplete(findstart, base)
     return res
   endif
 endfun
-
-set omnifunc=MelComplete
 
