@@ -6,5 +6,6 @@ omnifunc completion of built-in function names for Autodesk's
 
 ## Credits:
  - Jan Pijpers for his SublimeMelAutocompletion.py script to extract MEL cmds
+    * http://www.janpijpers.com/mel-autocompletion-for-sublime-and-mayasublime/
  - Doug Richardson's Vim-Vex plugin for Vex Completion in VIM:
-    https://github.com/drichardson/vim-vex
+    * https://github.com/drichardson/vim-vex
