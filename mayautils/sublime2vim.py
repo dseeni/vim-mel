@@ -1,7 +1,8 @@
 import json
 
-jsoncompletions = 'c:/users/deepak/appdata/local/nvim/completions.json'
-output = 'c:/users/deepak/appdata/local/nvim/output.vim'
+# NOTE: this is a sublime json to vim omnifunc converter
+jsoncompletions = 'OUTPUT FROM SUBLIMEMELAUTOCOMPLETION.PY'
+output = 'FILE DESTINATION'
 
 with open(jsoncompletions) as json_file:
     data = json.load(json_file)
