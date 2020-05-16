@@ -9,3 +9,5 @@ omnifunc completion of built-in function names for Autodesk's
     * http://www.janpijpers.com/mel-autocompletion-for-sublime-and-mayasublime/
  - Doug Richardson's Vim-Vex plugin for Vex Completion in VIM:
     * https://github.com/drichardson/vim-vex
+ - Ultisnips Directory:
+    * let g:UltiSnipsSnippetDirectories=["UltiSnips", "melsnippets"]
