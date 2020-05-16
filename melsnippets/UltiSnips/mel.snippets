@@ -1,1 +1,121 @@
-# place mel here
+# Snippets for MEL
+priority -10
+
+snippet if "Code snippet for an if statement"
+if (${1:expression})
+{
+	${2:statement};}
+}
+endsnippet
+
+snippet ifelse "Code snippet for an if statement with else"
+if (${1:expression})
+{
+	{${2:statement};}
+}
+else:
+{
+	${3:statement};
+}
+endsnippet
+
+snippet elseif "Code snippet for an else if"
+else if (${1:expression})
+{
+	${2:statement};
+}
+endsnippet
+
+snippet else "Code snippet for an else"
+else
+{
+	${1:statement};
+}
+endsnippet
+
+snippet dowhile "Code snippet for a do while loop"
+do
+{
+	${1:statement};
+}
+while(${2:expression})
+endsnippet
+
+snippet switchcase "Code snippet for a switch case"
+switch (${1:expression})
+{
+	case ${2:value1}:
+		${3:expression};
+		break;
+	case ${4:value1}:
+		${5:expression};
+		break;
+}
+endsnippet
+
+snippet proc "Code snippet for a procedure"
+proc ${1:return_type} ${2:procname}(${3:arg_list})
+{
+	${4:statement};
+	return ${5:return};
+}
+endsnippet
+
+snippet proc(global) "Code snippet for a global procedure"
+global proc ${1:return_type} ${2:procname}(${3:arg_list})
+{
+	${4:statement};
+	return ${5:return};
+}
+endsnippet
+
+snippet forin "Code snippet for a for loop"
+for (${1:var} in ${2:array})
+	{${4:statement};}
+endsnippet
+
+snippet for "Code snippet for a for loop with counter"
+for (${1:var}=0; ${1:var}<(size(${2:array})-1); ${1:var}++)
+{
+	${4:statement};
+}
+endsnippet
+
+snippet while "Code snippet for a for while loop"
+while (${1:condition})
+{
+	${2:statement};
+}
+endsnippet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
